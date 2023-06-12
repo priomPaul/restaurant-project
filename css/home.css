@@ -1,0 +1,121 @@
+ .banner{
+    padding-top: 50px;
+} 
+
+.banner img{
+    height: 350px;
+    width: 350px; 
+}
+
+.banner-text{
+    color: black;
+}
+
+.banner-text h3{
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.banner-text h3 span{
+    color: red;
+}
+
+.banner-text p{
+    font-size: 24px;
+}
+
+/* --------------ENVIRONMENT----------------- */
+ .environment{
+    margin: 50px 0;
+}
+
+.environment h1{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+}
+
+ .environment .flex{
+    justify-content: center;
+}
+
+.environment div{
+    overflow: hidden;
+}
+
+.environment img{
+    width: 300px; 
+    height: 300px;
+    transition: 500ms;
+}
+
+.environment img:hover{
+    scale: 1.2;
+}
+
+
+/* --------------RECIPES------------------- */
+.items{
+    margin-top: 50px;
+}
+
+.items-text{
+    text-align: center;
+}
+
+.items-text h2{
+    font-size: 34px;
+    color: red;
+}
+.items-text p{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.items-text p span{
+    color: red;
+}
+
+.recipes{
+    margin: 40px 0;
+}
+
+.recipe{
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid gray;
+    padding: 10px;
+}
+.recipe img{
+    height: 240px;
+    width: 240px;
+}
+.recipe h4{
+    font-size: 28px;
+}
+
+.recipe .price{
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+ /*followers*/ 
+ .followers{
+    margin: 50px 0;
+   
+}
+
+.follower{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 30px;
+    font-size: 24px; 
+    color: blue;
+}
+
+
+.follower:hover{
+    color: white;
+    background-color: tomato;
+}

@@ -1,0 +1,38 @@
+.order .items .recipe .btn{
+    padding: 8px 12px;
+    font-size: 18px;
+}
+ .payment{
+    margin: 50px 0;
+    font-size: large;
+
+   
+}
+
+
+
+
+/* .payment:hover{
+    color: white;
+     background-color: tomato;
+} */ 
+ .payment img {
+height: 100px;
+width: 100px; ;
+padding-bottom: 50px;
+filter: grayscale(100);
+}
+.payment h1 {
+text-align: center;
+font-size: 30px;
+
+padding-bottom: 50px;
+}
+     
+.payment img:hover{
+
+scale: 1.2;
+
+filter: grayscale(0);
+
+}
